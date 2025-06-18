@@ -1,0 +1,155 @@
+Starting link update script. Dry run: True.
+Scanning directory: ai-guides
+Scanning directory: stories
+Skipping journal.md (story status: Done): stories/s060-retire-ai-playbooks-concept/journal.md
+Skipping story.md (status: Done): stories/s060-retire-ai-playbooks-concept/story.md
+Skipping journal.md (story status: Closed): stories/s046-create-writing-ai-playbooks-guide/journal.md
+Skipping story.md (status: Closed): stories/s046-create-writing-ai-playbooks-guide/story.md
+  Bare Path(s) Change | File: stories/s050-refactor-vibe-tasking-onboarding/story.md
+    Content was modified by bare path replacements (details not shown per line in dry_run for brevity).
+Skipping journal.md (story status: Done): stories/s015-create-planning-and-beginner-guides/journal.md
+Skipping story.md (status: Done): stories/s015-create-planning-and-beginner-guides/story.md
+Skipping journal.md (story status: Done): stories/s037-enhance-ac-update-process/journal.md
+Skipping story.md (status: Done): stories/s037-enhance-ac-update-process/story.md
+Skipping journal.md (story status: Done): stories/s030-enhance-motivation-documentation/journal.md
+Skipping story.md (status: Done): stories/s030-enhance-motivation-documentation/story.md
+Skipping journal.md (story status: Done): stories/s010-enhance-story-completion-process/journal.md
+Skipping story.md (status: Done): stories/s010-enhance-story-completion-process/story.md
+Skipping journal.md (story status: Done): stories/s038-clarify-journal-entry-process/journal.md
+Skipping story.md (status: Done): stories/s038-clarify-journal-entry-process/story.md
+Skipping journal.md (story status: Done): stories/s004-setup-guides-directory/journal.md
+Skipping story.md (status: Done): stories/s004-setup-guides-directory/story.md
+Skipping journal.md (story status: Done): stories/s021-update-windsurf-capabilities/journal.md
+Skipping story.md (status: Done): stories/s021-update-windsurf-capabilities/story.md
+Skipping journal.md (story status: Done): stories/s005-investigate-command-output-capture-issue/journal.md
+Skipping story.md (status: Done): stories/s005-investigate-command-output-capture-issue/story.md
+Skipping journal.md (story status: Done): stories/s032-adr-code-free-project/journal.md
+Skipping story.md (status: Done): stories/s032-adr-code-free-project/story.md
+Skipping journal.md (story status: Closed): stories/s027-validate-installing-md-with-windsurf/journal.md
+Skipping story.md (status: Closed): stories/s027-validate-installing-md-with-windsurf/story.md
+Skipping journal.md (story status: Done): stories/s006-update-project-motivation/journal.md
+Skipping story.md (status: Done): stories/s006-update-project-motivation/story.md
+Skipping journal.md (story status: Closed): stories/s043-research-zip-installer-path/journal.md
+Skipping story.md (status: Closed): stories/s043-research-zip-installer-path/story.md
+Skipping journal.md (story status: Done): stories/s035-refactor-workflow-documentation/journal.md
+Skipping story.md (status: Done): stories/s035-refactor-workflow-documentation/story.md
+Skipping journal.md (story status: Closed): stories/s022-create-installing-md-validation-guide/journal.md
+Skipping story.md (status: Closed): stories/s022-create-installing-md-validation-guide/story.md
+Skipping journal.md (story status: Closed): stories/s023-validate-installing-md-with-copilot/journal.md
+Skipping story.md (status: Closed): stories/s023-validate-installing-md-with-copilot/story.md
+Skipping journal.md (story status: Done): stories/s053-formalize-sibling-template-convention/journal.md
+Skipping story.md (status: Done): stories/s053-formalize-sibling-template-convention/story.md
+Skipping journal.md (story status: Done): stories/s003-implement-enhanced-story-structure/journal.md
+Skipping story.md (status: Done): stories/s003-implement-enhanced-story-structure/story.md
+  Bare Path(s) Change | File: stories/s064-refactor-directory-structure-ai-guides-stories/story.md
+    Content was modified by bare path replacements (details not shown per line in dry_run for brevity).
+Skipping journal.md (story status: Done): stories/s031-create-example-walkthrough-guide/journal.md
+Skipping story.md (status: Done): stories/s031-create-example-walkthrough-guide/story.md
+Skipping journal.md (story status: Done): stories/s055-add-ethos-note-to-context-md/journal.md
+Skipping story.md (status: Done): stories/s055-add-ethos-note-to-context-md/story.md
+Skipping journal.md (story status: Done): stories/s017-enhance-story-readme/journal.md
+Skipping story.md (status: Done): stories/s017-enhance-story-readme/story.md
+Skipping journal.md (story status: Closed): stories/s026-validate-installing-md-with-cursor/journal.md
+Skipping story.md (status: Closed): stories/s026-validate-installing-md-with-cursor/story.md
+Skipping journal.md (story status: Closed): stories/s047-add-sequence-diagrams/journal.md
+Skipping story.md (status: Closed): stories/s047-add-sequence-diagrams/story.md
+Skipping journal.md (story status: Done): stories/s019-revamp-installing-md/journal.md
+Skipping story.md (status: Done): stories/s019-revamp-installing-md/story.md
+Skipping journal.md (story status: Done): stories/s016-guide-for-updating-installing-md/journal.md
+Skipping story.md (status: Done): stories/s016-guide-for-updating-installing-md/story.md
+Skipping journal.md (story status: Done): stories/s034-create-workflow-guide/journal.md
+Skipping story.md (status: Done): stories/s034-create-workflow-guide/story.md
+Skipping journal.md (story status: Closed): stories/s025-validate-installing-md-with-cline/journal.md
+Skipping story.md (status: Closed): stories/s025-validate-installing-md-with-cline/story.md
+Skipping journal.md (story status: Done): stories/s020-update-cursor-capabilities/journal.md
+Skipping story.md (status: Done): stories/s020-update-cursor-capabilities/story.md
+Skipping journal.md (story status: Done): stories/s007-create-docs-reference-directory/journal.md
+Skipping story.md (status: Done): stories/s007-create-docs-reference-directory/story.md
+Skipping journal.md (story status: Done): stories/s054-create-article-tutorial-ai-guides-templates/journal.md
+Skipping story.md (status: Done): stories/s054-create-article-tutorial-ai-guides-templates/story.md
+Skipping journal.md (story status: Done): stories/s042-harmonize-onboarding-docs/journal.md
+Skipping story.md (status: Done): stories/s042-harmonize-onboarding-docs/story.md
+Skipping journal.md (story status: Done): stories/s008-document-ai-assistant-capabilities/journal.md
+Skipping story.md (status: Done): stories/s008-document-ai-assistant-capabilities/story.md
+Skipping journal.md (story status: Done): stories/s049-create-vibe-coding-tutorial-series/journal.md
+Skipping story.md (status: Done): stories/s049-create-vibe-coding-tutorial-series/story.md
+Skipping journal.md (story status: Done): stories/s058-research-ai-file-op-costs/journal.md
+Skipping story.md (status: Done): stories/s058-research-ai-file-op-costs/story.md
+Skipping journal.md (story status: Done): stories/s044-refactor-onboarding-add-prerequisites/journal.md
+Skipping story.md (status: Done): stories/s044-refactor-onboarding-add-prerequisites/story.md
+Skipping journal.md (story status: Done): stories/s063-refactor-ai-guides-structure/journal.md
+Skipping story.md (status: Done): stories/s063-refactor-ai-guides-structure/story.md
+Skipping journal.md (story status: Done): stories/s033-document-past-adrs/journal.md
+Skipping story.md (status: Done): stories/s033-document-past-adrs/story.md
+Skipping journal.md (story status: Done): stories/s011-refactor-installation-guide/journal.md
+Skipping story.md (status: Done): stories/s011-refactor-installation-guide/story.md
+Skipping journal.md (story status: Done): stories/s057-standardize-enhance-adr-authoring/journal.md
+Skipping story.md (status: Done): stories/s057-standardize-enhance-adr-authoring/story.md
+Skipping journal.md (story status: Closed): stories/s048-document-git-workflow-for-ai-collaboration/journal.md
+Skipping story.md (status: Closed): stories/s048-document-git-workflow-for-ai-collaboration/story.md
+Skipping journal.md (story status: Done): stories/s014-refactor-main-readme/journal.md
+Skipping story.md (status: Done): stories/s014-refactor-main-readme/story.md
+Skipping journal.md (story status: Done): stories/s002-design-enhanced-story-structure/journal.md
+Skipping story.md (status: Done): stories/s002-design-enhanced-story-structure/story.md
+Skipping journal.md (story status: Done): stories/s059-measure-min-mcp-call-time/journal.md
+Skipping story.md (status: Done): stories/s059-measure-min-mcp-call-time/story.md
+Skipping journal.md (story status: Done): stories/s045-refactor-documentation-structure/journal.md
+Skipping story.md (status: Done): stories/s045-refactor-documentation-structure/story.md
+Skipping journal.md (story status: Done): stories/s052-codify-apply-ai-guide-standards/journal.md
+Skipping story.md (status: Done): stories/s052-codify-apply-ai-guide-standards/story.md
+Skipping journal.md (story status: Done): stories/s028-add-resolution-field/journal.md
+Skipping story.md (status: Done): stories/s028-add-resolution-field/story.md
+Skipping journal.md (story status: Done): stories/s001-initial-project-setup/journal.md
+Skipping story.md (status: Done): stories/s001-initial-project-setup/story.md
+Skipping journal.md (story status: Closed): stories/s024-validate-installing-md-with-gemini/journal.md
+Skipping story.md (status: Closed): stories/s024-validate-installing-md-with-gemini/story.md
+Skipping journal.md (story status: Done): stories/s029-refactor-onboarding-documentation/journal.md
+Skipping story.md (status: Done): stories/s029-refactor-onboarding-documentation/story.md
+  Bare Path(s) Change | File: stories/s051-design-story-dependency-tracking/story.md
+    Content was modified by bare path replacements (details not shown per line in dry_run for brevity).
+Skipping journal.md (story status: Done): stories/s036-adr-ascii-art-diagrams/journal.md
+Skipping story.md (status: Done): stories/s036-adr-ascii-art-diagrams/story.md
+Skipping journal.md (story status: Done): stories/s009-how-to-use-vibe-tasking-guide/journal.md
+Skipping story.md (status: Done): stories/s009-how-to-use-vibe-tasking-guide/story.md
+Skipping journal.md (story status: Done): stories/s062-refactor-story-documentation-guides/journal.md
+Skipping story.md (status: Done): stories/s062-refactor-story-documentation-guides/story.md
+Skipping journal.md (story status: Done): stories/s040-create-ascii-art-diagram-guide/journal.md
+Skipping story.md (status: Done): stories/s040-create-ascii-art-diagram-guide/story.md
+Skipping journal.md (story status: Done): stories/s018-update-planning-guide-halt-after-creation/journal.md
+Skipping story.md (status: Done): stories/s018-update-planning-guide-halt-after-creation/story.md
+Skipping journal.md (story status: Closed): stories/s012-create-usage-guides/journal.md
+Skipping story.md (status: Closed): stories/s012-create-usage-guides/story.md
+Scanning directory: docs
+Skipping ADR file: docs/adrs/adr-015-enhancing-ac-update-compliance.md
+Skipping ADR file: docs/adrs/adr-026-promote-ai-guides-stories-to-root.md
+Skipping ADR file: docs/adrs/adr-009-ai-assisted-planning.md
+Skipping ADR file: docs/adrs/adr-004-repository-integrated.md
+Skipping ADR file: docs/adrs/adr-025-restructure-ai-guides-directory.md
+Skipping ADR file: docs/adrs/adr-011-story-readme-sot.md
+Skipping ADR file: docs/adrs/adr-020-standardize-article-tutorial-authoring.md
+Skipping ADR file: docs/adrs/adr-019-adopt-sibling-template-convention.md
+Skipping ADR file: docs/adrs/adr-016-ascii-art-diagrams.md
+Skipping ADR file: docs/adrs/adr-021-formalize-adr-authoring-process.md
+Skipping ADR file: docs/adrs/adr-018-standardize-ai-guide-authoring-collaboration.md
+Skipping ADR file: docs/adrs/adr-008-ai-assisted-setup.md
+Skipping ADR file: docs/adrs/adr-012-journaling-practice.md
+Skipping ADR file: docs/adrs/adr-005-core-directory-structure.md
+Skipping ADR file: docs/adrs/adr-014-process-acceptance-criteria.md
+Skipping ADR file: docs/adrs/adr-024-story-documentation-refactor.md
+Skipping ADR file: docs/adrs/adr-017-documentation-refactor.md
+Skipping ADR file: docs/adrs/adr-007-agnostic-framework-design.md
+Skipping ADR file: docs/adrs/adr-002-markdown-syntax.md
+Skipping ADR file: docs/adrs/adr-022-retire-ai-playbooks-concept.md
+Skipping ADR file: docs/adrs/adr-013-structured-onboarding.md
+Skipping ADR file: docs/adrs/adr-010-root-context-md.md
+Skipping ADR file: docs/adrs/adr-001-code-free-framework.md
+Skipping ADR file: docs/adrs/adr-003-yaml-frontmatter.md
+Skipping ADR file: docs/adrs/adr-006-story-file-structure.md
+Skipping ADR file: docs/adrs/adr-023-standardize-ai-guides-naming.md
+Scanning file: README.md
+Scanning file: CONTEXT.md
+
+Script finished.
+Total Markdown files encountered (across all scan locations): 212
+Total files processed for link changes: 74
+Total files that would be changed: 3

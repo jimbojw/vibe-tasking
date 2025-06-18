@@ -1,0 +1,152 @@
+Starting link update script. APPLYING CHANGES.
+Processing: ai-guides/README.md
+Processing: ai-guides/core/python-script-dry-run-guide.md
+Processing: ai-guides/core/context-documents-writing-guide.md
+MODIFIED: File 'ai-guides/core/context-documents-writing-guide.md'
+Processing: ai-guides/core/template-files-working-guide.md
+MODIFIED: File 'ai-guides/core/template-files-working-guide.md'
+Processing: ai-guides/core/README.md
+Processing: ai-guides/core/command-output-issues-handling-guide.md
+Processing: ai-guides/core/stories/stories-planning-guide.md
+MODIFIED: File 'ai-guides/core/stories/stories-planning-guide.md'
+Processing: ai-guides/core/stories/journal.template.md
+Processing: ai-guides/core/stories/stories-structuring-guide.md
+MODIFIED: File 'ai-guides/core/stories/stories-structuring-guide.md'
+Processing: ai-guides/core/stories/story.template.md
+Processing: ai-guides/core/stories/stories-working-guide.md
+Processing: ai-guides/core/ai-guides/ai-guide.template.md
+MODIFIED: File 'ai-guides/core/ai-guides/ai-guide.template.md'
+Processing: ai-guides/core/ai-guides/ai-guides-collaborative-designing-guide.md
+MODIFIED: File 'ai-guides/core/ai-guides/ai-guides-collaborative-designing-guide.md'
+Processing: ai-guides/contrib/ascii-art-diagrams-authoring-guide.md
+Processing: ai-guides/contrib/updating-onboarding-guide.md
+Processing: ai-guides/contrib/sequence-diagrams-authoring-guide.md
+Processing: ai-guides/contrib/articles/article.template.md
+Processing: ai-guides/contrib/articles/articles-writing-guide.md
+MODIFIED: File 'ai-guides/contrib/articles/articles-writing-guide.md'
+Processing: ai-guides/contrib/adrs/adr.template.md
+Processing: ai-guides/contrib/adrs/adrs-writing-guide.md
+MODIFIED: File 'ai-guides/contrib/adrs/adrs-writing-guide.md'
+Processing: ai-guides/contrib/tutorials/tutorial-part.template.md
+Processing: ai-guides/contrib/tutorials/tutorial-series-readme.template.md
+Processing: ai-guides/contrib/tutorials/tutorials-writing-guide.md
+MODIFIED: File 'ai-guides/contrib/tutorials/tutorials-writing-guide.md'
+Processing: stories/README.md
+MODIFIED: File 'stories/README.md'
+Processing: stories/s050-refactor-vibe-tasking-onboarding/journal.md
+Processing: stories/s050-refactor-vibe-tasking-onboarding/story.md
+MODIFIED: File 'stories/s050-refactor-vibe-tasking-onboarding/story.md'
+Processing: stories/s061-standardize-ai-guides-naming/journal.md
+MODIFIED: File 'stories/s061-standardize-ai-guides-naming/journal.md'
+Processing: stories/s061-standardize-ai-guides-naming/story.md
+MODIFIED: File 'stories/s061-standardize-ai-guides-naming/story.md'
+Processing: stories/s064-refactor-directory-structure-ai-guides-stories/journal.md
+MODIFIED: File 'stories/s064-refactor-directory-structure-ai-guides-stories/journal.md'
+Processing: stories/s064-refactor-directory-structure-ai-guides-stories/story.md
+MODIFIED: File 'stories/s064-refactor-directory-structure-ai-guides-stories/story.md'
+Processing: stories/s041-research-ai-web-fetching-filtering/journal.md
+Processing: stories/s041-research-ai-web-fetching-filtering/story.md
+Processing: stories/s039-research-low-code-gui-filesystem-write/journal.md
+Processing: stories/s039-research-low-code-gui-filesystem-write/story.md
+Processing: stories/s056-design-lightweight-story-type/journal.md
+Processing: stories/s056-design-lightweight-story-type/story.md
+MODIFIED: File 'stories/s056-design-lightweight-story-type/story.md'
+Processing: stories/s051-design-story-dependency-tracking/journal.md
+Processing: stories/s051-design-story-dependency-tracking/story.md
+MODIFIED: File 'stories/s051-design-story-dependency-tracking/story.md'
+Processing: docs/README.md
+Processing: docs/articles/using-architecture-decision-records.md
+MODIFIED: File 'docs/articles/using-architecture-decision-records.md'
+Processing: docs/articles/README.md
+Processing: docs/articles/ai-collaboration-best-practices.md
+MODIFIED: File 'docs/articles/ai-collaboration-best-practices.md'
+Processing: docs/articles/leveraging-project-guides.md
+Processing: docs/articles/vibe-coding-tutorial/07-conclusion-and-next-steps.md
+Processing: docs/articles/vibe-coding-tutorial/README.md
+Processing: docs/articles/vibe-coding-tutorial/05-git-workflow-for-ai-collaboration.md
+Processing: docs/articles/vibe-coding-tutorial/06-advanced-techniques-and-patterns.md
+Processing: docs/articles/vibe-coding-tutorial/02-workflow-evolution.md
+Processing: docs/articles/vibe-coding-tutorial/04-understanding-ai-assistants.md
+Processing: docs/articles/vibe-coding-tutorial/01-introduction-to-vibe-coding.md
+Processing: docs/articles/vibe-coding-tutorial/03-core-principles-of-ai-collaboration.md
+Processing: docs/articles/onboarding/04-planning-stories.md
+MODIFIED: File 'docs/articles/onboarding/04-planning-stories.md'
+Processing: docs/articles/onboarding/06-example-walkthrough.md
+MODIFIED: File 'docs/articles/onboarding/06-example-walkthrough.md'
+Processing: docs/articles/onboarding/05-working-with-stories.md
+MODIFIED: File 'docs/articles/onboarding/05-working-with-stories.md'
+Processing: docs/articles/onboarding/07-workflow-feature-lifecycle.md
+Processing: docs/articles/onboarding/README.md
+Processing: docs/articles/onboarding/03-installation.md
+MODIFIED: File 'docs/articles/onboarding/03-installation.md'
+Processing: docs/articles/onboarding/02-prerequisites.md
+Processing: docs/articles/onboarding/01-introduction.md
+MODIFIED: File 'docs/articles/onboarding/01-introduction.md'
+Processing: docs/articles/onboarding/08-workflow-architectural-challenges.md
+Processing: docs/adrs/adr-015-enhancing-ac-update-compliance.md
+MODIFIED: File 'docs/adrs/adr-015-enhancing-ac-update-compliance.md'
+Processing: docs/adrs/adr-026-promote-ai-guides-stories-to-root.md
+MODIFIED: File 'docs/adrs/adr-026-promote-ai-guides-stories-to-root.md'
+Processing: docs/adrs/adr-009-ai-assisted-planning.md
+Processing: docs/adrs/adr-004-repository-integrated.md
+Processing: docs/adrs/adr-025-restructure-ai-guides-directory.md
+MODIFIED: File 'docs/adrs/adr-025-restructure-ai-guides-directory.md'
+Processing: docs/adrs/adr-011-story-readme-sot.md
+MODIFIED: File 'docs/adrs/adr-011-story-readme-sot.md'
+Processing: docs/adrs/adr-020-standardize-article-tutorial-authoring.md
+MODIFIED: File 'docs/adrs/adr-020-standardize-article-tutorial-authoring.md'
+Processing: docs/adrs/adr-019-adopt-sibling-template-convention.md
+MODIFIED: File 'docs/adrs/adr-019-adopt-sibling-template-convention.md'
+Processing: docs/adrs/adr-016-ascii-art-diagrams.md
+Processing: docs/adrs/adr-021-formalize-adr-authoring-process.md
+MODIFIED: File 'docs/adrs/adr-021-formalize-adr-authoring-process.md'
+Processing: docs/adrs/adr-018-standardize-ai-guide-authoring-collaboration.md
+MODIFIED: File 'docs/adrs/adr-018-standardize-ai-guide-authoring-collaboration.md'
+Processing: docs/adrs/adr-008-ai-assisted-setup.md
+MODIFIED: File 'docs/adrs/adr-008-ai-assisted-setup.md'
+Processing: docs/adrs/adr-012-journaling-practice.md
+Processing: docs/adrs/adr-005-core-directory-structure.md
+MODIFIED: File 'docs/adrs/adr-005-core-directory-structure.md'
+Processing: docs/adrs/adr-014-process-acceptance-criteria.md
+MODIFIED: File 'docs/adrs/adr-014-process-acceptance-criteria.md'
+Processing: docs/adrs/README.md
+MODIFIED: File 'docs/adrs/README.md'
+Processing: docs/adrs/adr-024-story-documentation-refactor.md
+MODIFIED: File 'docs/adrs/adr-024-story-documentation-refactor.md'
+Processing: docs/adrs/adr-017-documentation-refactor.md
+Processing: docs/adrs/adr-007-agnostic-framework-design.md
+Processing: docs/adrs/adr-002-markdown-syntax.md
+Processing: docs/adrs/adr-022-retire-ai-playbooks-concept.md
+MODIFIED: File 'docs/adrs/adr-022-retire-ai-playbooks-concept.md'
+Processing: docs/adrs/adr-013-structured-onboarding.md
+MODIFIED: File 'docs/adrs/adr-013-structured-onboarding.md'
+Processing: docs/adrs/adr-010-root-context-md.md
+MODIFIED: File 'docs/adrs/adr-010-root-context-md.md'
+Processing: docs/adrs/adr-001-code-free-framework.md
+MODIFIED: File 'docs/adrs/adr-001-code-free-framework.md'
+Processing: docs/adrs/adr-003-yaml-frontmatter.md
+Processing: docs/adrs/adr-006-story-file-structure.md
+MODIFIED: File 'docs/adrs/adr-006-story-file-structure.md'
+Processing: docs/adrs/adr-023-standardize-ai-guides-naming.md
+MODIFIED: File 'docs/adrs/adr-023-standardize-ai-guides-naming.md'
+Processing: docs/reference/gemini-code-assist-capabilities.md
+Processing: docs/reference/windsurf-capabilities.md
+Processing: docs/reference/customizing-roo-modes.md
+MODIFIED: File 'docs/reference/customizing-roo-modes.md'
+Processing: docs/reference/cline-execute-command-behavior.md
+Processing: docs/reference/glossary.md
+MODIFIED: File 'docs/reference/glossary.md'
+Processing: docs/reference/cursor-ai-capabilities.md
+Processing: docs/reference/roo-code-capabilities.md
+Processing: docs/reference/README.md
+Processing: docs/reference/ai-assistant-capabilities.md
+Processing: docs/reference/cline-capabilities.md
+Processing: docs/reference/github-copilot-capabilities.md
+Processing: README.md
+MODIFIED: File 'README.md'
+Processing: CONTEXT.md
+
+Script finished.
+Total Markdown files encountered (across all scan locations): 212
+Total files processed for link changes: 100
+Total files actually changed: 46

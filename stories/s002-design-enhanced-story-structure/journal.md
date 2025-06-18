@@ -1,0 +1,52 @@
+# Journal: s002 - Design Enhanced Story Structure
+
+## 2025-05-16
+
+- Story s002 initiated.
+- Objective: Collaborate with AI (Cline) to identify further requirements for Vibe Tasking and design an enhanced story structure.
+- Key output: A design document for the new structure.
+- **Design Discussion (Metadata & Querying - Part 1):**
+  - User identified a core need for story metadata: the ability to _query_ stories based on their metadata (e.g., status) directly from the command line using terse, cross-platform one-liners. This is a critical usability requirement for Vibe Tasking.
+  - Cline's initial proposal to address queryability:
+    - Use YAML frontmatter within each `story.md` for detailed, human-readable metadata (e.g., id, title, status, priority, tags, dates).
+    - Introduce a separate, aggregated `docs/stories/stories_index.csv` file to enable simple command-line querying (e.g., finding all "In Progress" stories).
+    - Cline suggested AI assistance for keeping the `story.md` frontmatter and the `stories_index.csv` file synchronized.
+  - User Feedback & Critical Constraint:
+    - Maintaining a separate index file (like `stories_index.csv`) is **not acceptable**. This is due to the high risk of the index becoming out-of-sync with the actual story files, especially if relying on manual or AI-assisted updates.
+    - **Strong Requirement:** The solution must _not_ involve a separate index. Querying (e.g., "show me all stories that are In Progress") must be achievable via terse, cross-platform command-line one-liners operating directly on the `story.md` files.
+  - Implication: The design for metadata storage within `story.md` and the method for CLI querying needs to be re-evaluated to meet this "no separate index" constraint. The challenge is to find a format within `story.md` that is both reasonably human-readable and easily parsable by simple CLI tools like `grep`, `awk`, `sed`, and their PowerShell equivalents for cross-platform one-liners.
+- **Design Discussion (Metadata & Querying - Part 2 - Refining the "No Index" Approach):**
+  - Cline proposed a revised solution:
+    - Continue using YAML frontmatter in `story.md`.
+    - For queryable fields (e.g., `status`, `priority`, `tags`), enforce strict single-line formatting (e.g., `status: "In Progress"`, `tags: "design;enhancement"`) to facilitate searching with line-based CLI tools.
+    - CLI querying would directly target `story.md` files using tools like `grep` (or `Select-String` in PowerShell) to find matching files, then extract the story ID (directory name) from the file path. Example one-liners for \*nix and PowerShell were provided.
+  - **Discussion on Specific Metadata Fields for Frontmatter:**
+    - Agreement on core fields: `id`, `title`, `status`. These are considered vital.
+    - Agreement on useful, common fields: `priority`, `tags`.
+    - User Pushback on Date Fields: `created_date` and `updated_date` should be **excluded** from the frontmatter.
+    - Rationale: Vibe Tasking assumes usage with a version control system (VCS). VCS already serves as the source of truth for timestamps and change history. Including these dates in frontmatter would be redundant and risks discrepancies with the VCS. This aligns with leveraging existing system capabilities.
+    - Decision: The core set of frontmatter fields will be `id`, `title`, `status`, `priority`, and `tags`.
+- **Testing the Querying Approach:**
+  - To validate the direct CLI querying approach with YAML frontmatter, it was decided to create a practical test case.
+  - Cline created an example story file at `docs/stories/s002-design-enhanced-story-structure/artifacts/s999-example-for-testing/story.md`.
+  - User noted that an `sNNN`-prefixed directory for test artifacts (like `s999-example-for-testing`) could interfere with IDE autocompletion for actual stories.
+  - Agreed to rename the test artifact directory to `example-story-for-testing`. Cline executed the rename.
+  - Due to issues with capturing direct command output, user suggested creating a bash script to run the `grep` tests and pipe outputs into files.
+  - Cline created `docs/stories/s002-design-enhanced-story-structure/artifacts/run_query_tests.sh`. This script:
+    - Determines its own location.
+    - Targets the `example-story-for-testing/story.md` file.
+    - Runs `grep` and `sed` commands for status, priority, and tag.
+    - Saves results to `status_query_result.txt`, `priority_query_result.txt`, and `tag_query_result.txt` within the same artifacts directory.
+  - Cline made the script executable and ran it.
+  - Cline then read the contents of the three output files.
+  - **Test Results: SUCCESSFUL.**
+    - `status_query_result.txt` contained `example-story-for-testing`.
+    - `priority_query_result.txt` contained `example-story-for-testing`.
+    - `tag_query_result.txt` contained `example-story-for-testing`.
+  - This validates the direct CLI querying approach using YAML frontmatter and standard command-line tools. The `run_query_tests.sh` script also serves as a useful artifact.
+  - **Refinement of Tag Querying:**
+    - User pointed out that the initial tag query regex (`^tags: ".*test.*"`) was too broad and could match substrings.
+    - A more precise regex was developed: `^tags: "([^"]*;)*test([^"]*;|")[^"]*"`, designed to match whole tags delimited by semicolons or quotes.
+    - Cline updated the `run_query_tests.sh` script with this refined regex.
+    - The script was re-run, and the `tag_query_result.txt` confirmed the refined query was successful.
+    - This ensures more accurate tag searching.

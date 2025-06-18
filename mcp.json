@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "s059-ping-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "stories/s059-measure-min-mcp-call-time/artifacts/mcp_server_s059/server.js"
+      ],
+      "disabled": true,
+      "alwaysAllow": ["report_pings_tool", "clear_pings_tool", "ping_tool"]
+    }
+  }
+}

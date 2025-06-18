@@ -1,0 +1,14 @@
+{
+  "name": "s059-mcp-server",
+  "version": "1.0.0",
+  "description": "Minimal MCP server for s059",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^5.1.0"
+  }
+}

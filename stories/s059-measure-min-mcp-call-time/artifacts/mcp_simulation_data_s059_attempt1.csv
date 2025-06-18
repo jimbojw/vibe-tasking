@@ -1,0 +1,3 @@
+call_number,mcp_tool_name,start_time_iso,end_time_iso,duration_ms,reported_mcp_timestamp
+1,ping_tool,N/A,N/A,N/A,2025-05-25T11:29:38.875Z
+2,ping_tool,N/A,N/A,N/A,2025-05-25T11:29:49.890Z
