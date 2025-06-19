@@ -6,9 +6,9 @@ Vibe Tasking is a lightweight, **documentation-centric framework** using simple 
 
 Vibe Tasking operates on three core pillars to create a structured and effective environment for AI-assisted development:
 
-1.  **Context Initialization (`CONTEXT.md`):** A primary file at the project root (e.g., [`CONTEXT.md`](CONTEXT.md:0)) that bootstraps AI assistant chat sessions. It provides essential orientation, links to crucial documents, and meta-guidance on how the AI can discover more specific instructions.
-2.  **AI-Guides (`ai-guides/`):** A collection of specialized instructional documents (e.g., [`ai-guides/core/stories/stories-structuring-guide.md`](ai-guides/core/stories/stories-structuring-guide.md:0)) designed to provide AI assistants with explicit, task-specific operational procedures and project conventions. These are discoverable via their YAML frontmatter.
-3.  **Stories (`stories/`):** Structured units of work, akin to agile user stories (e.g., `stories/s001-initial-project-setup/story.md`). Each story is defined in its own directory and includes a `story.md` file (with metadata, description, and acceptance criteria) and a `journal.md` for logging progress.
+1.  **Context Initialization (`CONTEXT.md`):** A primary file at the project root (e.g., [`CONTEXT.md`](CONTEXT.md)) that bootstraps AI assistant chat sessions. It provides essential orientation, links to crucial documents, and meta-guidance on how the AI can discover more specific instructions.
+2.  **AI-Guides (`ai-guides/`):** A collection of specialized instructional documents (e.g., [`ai-guides/core/stories/stories-structuring-guide.md`](ai-guides/core/stories/stories-structuring-guide.md)) designed to provide AI assistants with explicit, task-specific operational procedures and project conventions. These are discoverable via their YAML frontmatter. The guides within Vibe Tasking apply to any project using the framework; host projects can add their own `ai-guides/` directory to create custom guides or override the default ones.
+3.  **Stories (`stories/`):** Structured units of work, akin to agile user stories (e.g., `stories/s001-initial-project-setup/story.md`). Each story is defined in its own directory and includes a `story.md` file (with metadata, description, and acceptance criteria) and a `journal.md` for logging progress. When you use Vibe Tasking in your project, a `stories/` directory will be created to house your project-specific work. _(Note: The [`stories/`](./stories) directory within the Vibe Tasking repository itself document its own development.)_
 
 These components interoperate to enhance AI accuracy, streamline workflows, and foster a more effective user-AI partnership.
 
@@ -59,7 +59,7 @@ Your AI assistant will then read and follow the instructions within `INSTALL_VIB
 3.  Execute the commands to initialize the Vibe Tasking submodule.
 4.  Offer to help you create an initial `CONTEXT.md` file for your project, which is essential for using Vibe Tasking effectively. This step itself uses guidance from a document within the newly installed Vibe Tasking submodule.
 
-Further steps, such as creating your first Vibe Tasking story, will typically occur in a new chat session after your `CONTEXT.md` file is in place and you invoke it.
+Further steps, such as creating your first Vibe Tasking story, will typically occur in a new chat session after your `CONTEXT.md` file is in place and you invoke it. To begin an interactive onboarding session, you can ask your assistant a question like, "How do I get started with Vibe Tasking?"
 
 ## Why Vibe Tasking? (The Motivation)
 
