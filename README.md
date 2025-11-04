@@ -38,19 +38,25 @@ Ideally, it should support **hundreds of thousands of tokens** (e.g., 200k+). Mo
 
 To integrate Vibe Tasking into your project using its dedicated AI-Assisted Installation Guide:
 
-1.  **Download the Installation Guide:**
-    Obtain the [`INSTALL_VIBE_TASKING.md`](INSTALL_VIBE_TASKING.md) file from the root of the Vibe Tasking project.
-    Place this file in the root directory of your host project (the project where you want to install Vibe Tasking).
+1. **Open Host Project:** Open your host project directory in your IDE.
+2. **Start a New Chat:** Begin a new chat session with your configured AI assistant.
+3. **Paste Installation Command:** Copy the entire text block below and paste it exactly as is into the chat input box, then press Enter:
 
-2.  **Initiate AI-Assisted Installation:**
-    Start a new chat session with your AI assistant.
-    Provide the downloaded installation guide as the **sole initial instruction** by referencing it. The exact method for referencing a file as context depends on your AI assistant's capabilities (e.g., using an "@" mention like `@INSTALL_VIBE_TASKING.md`, a specific command, or a UI element to attach/upload the file).
+```
+Your immediate task is to act as an AI installation assistant. To begin, you must retrieve the operational guide from the following URL using an available tool or operating system specific command, such as `curl`:  
+https://raw.githubusercontent.com/PAIR-code/vibe-tasking/refs/heads/main/INSTALL_VIBE_TASKING.md
 
-    Example (if your AI assistant supports `@` mentions for files in the workspace):
+If, for any reason, you cannot fetch the operational guide, you MUST inform me (the user) of the specific cause of the failure and then STOP. Do not attempt to proceed further or retry the command unless I explicitly instruct you to do so.
 
-    ```
-    @INSTALL_VIBE_TASKING.md
-    ```
+If the the operational guide was successfully retrieved, follow these critical instructions when processing it:
+
+1.  **Embody the Role:** You ARE the AI assistant described in the guide.
+2.  **Direct Speech:** When the guide contains lines like 'You (AI): "Hello there!"', you must say "Hello there!" directly to me (the user). **Crucially, you must OMIT the 'You (AI):' prefix itself from your spoken output.**
+3.  **Execute Actions:** Follow all procedural steps, decision logic, and tool usage instructions outlined in the guide as if you are performing them.
+4.  **Immediate Start:** Once the guide content is retrieved, begin your performance as the AI assistant immediately.
+
+Proceed now. Execute the command and enact the guide.
+```
 
 Your AI assistant will then read and follow the instructions within `INSTALL_VIBE_TASKING.md`. This interactive process will:
 
